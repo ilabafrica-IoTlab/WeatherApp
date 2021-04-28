@@ -30,9 +30,10 @@
     <h2>Weather Forcats</h2>
     <h3>Monday, 3rd April 2021</h3>
 </div>
-<div class="">
+
+<div class="border3 shadow w-auto m-auto px-5 py-8 bg-red-300 rounded  inline-block">
     <!-- Temperature Box 1 Start-->
-    <div  class="w-64 h-auto bg-white inline-block mr-10">
+    <div  class="w-auto h-auto bg-white inline-block mx-5">
       <h2 >Temperature</h2>
       <div >
         <!-- payload boxes -->
@@ -49,13 +50,13 @@
            <span class="text-xs text-black">°C</span>
           <h2 class="pl-3.5 pr-3.5"> minimum</h2>
         </div>
-
+      </div>
       </div>
     </div>
  <!-- Temperature Box 1 End-->
 
 <!-- additinal parameters box 2 Start-->
-  <div class="w-64 h-auto bg-red-400 inline-block ml-10">
+  <div class="w-auto h-auto border3 shadow m-auto  p-5 bg-green-200 rounded inline-block mx-5">
   <div >
       <h2>Additional Parameters</h2>
       <!-- Wind -->
@@ -70,7 +71,7 @@
 
 </div>
 
-  </div>
+
 </template>
 
 <script>
