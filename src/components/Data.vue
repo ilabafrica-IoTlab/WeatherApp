@@ -30,25 +30,25 @@
     <h2>Weather Forcats</h2>
     <h3>Monday, 3rd April 2021</h3>
 </div>
-
-<div class="border3 shadow w-auto m-auto px-5 py-8 bg-red-300 rounded  inline-block">
+<div>
+<div class="border3 shadow-md w-auto m-auto px-5 pb-4 pt-3 bg-white  rounded  inline-block">
     <!-- Temperature Box 1 Start-->
-    <div  class="w-auto h-auto bg-white inline-block mx-5">
-      <h2 >Temperature</h2>
+    <div  class="w-auto h-auto inline-block mx-5">
+      <h3 class="pt-2 mt-0 pb-6 text-sm">Temperature</h3>
       <div >
         <!-- payload boxes -->
         <div class="inline-block">
           <!-- Maximum-->
-          <span >25</span>
- <span class="text-xs text-black" >°C</span>
-        <h2 class="pl-3.5 pr-3.5">  maximum </h2>
+          <span class="text-3xl text-weatherMediumBlue">25</span>
+ <span class="text-xs text-black font-bold" > °C</span>
+         <h2 class="pl-3.5 pr-3.5 pt-3">  maximum </h2>
         </div>
-
+<div class="inline-block text-gray-200 text-8xl mt-0">|</div>
         <div class="inline-block">
           <!-- Minimum -->
-           <span>25</span>
-           <span class="text-xs text-black">°C</span>
-          <h2 class="pl-3.5 pr-3.5"> minimum</h2>
+           <span class=" text-weatherMediumBlue text-3xl">25</span>
+           <span class="text-xs text-black font-bold"> °C</span>
+          <h2 class="pl-3.5 pr-3.5 pt-3"> minimum</h2>
         </div>
       </div>
       </div>
@@ -56,9 +56,9 @@
  <!-- Temperature Box 1 End-->
 
 <!-- additinal parameters box 2 Start-->
-  <div class="w-auto h-auto border3 shadow m-auto  p-5 bg-green-200 rounded inline-block mx-5">
+  <div class="w-auto h-auto border3 shadow m-auto  pt-3 px-5  pb-4 bg-green-200 rounded inline-block mx-5">
   <div >
-      <h2>Additional Parameters</h2>
+      <h3 class="pt-2 mt-0 text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->
       <div> <h2 class="inline"> Wind </h2> { 24 }</div>
          <!-- Pressure -->
@@ -68,7 +68,7 @@
   </div>
   </div>
 <!-- additinal parameters box 2 End-->
-
+</div>
 </div>
 
 
