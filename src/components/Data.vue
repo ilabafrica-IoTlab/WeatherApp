@@ -72,7 +72,22 @@
 <!-- additinal parameters box 2 End-->
 </div>
 </div>
+
+
+<!-- Weather Icons per Day -->
+<div class="flex items-center mx-32 py-5">
+ <div class="mx-32 ">Histoirical Data
+<div>
+  <h1>Day</h1>
+  <img src="" alt="Weather Icon">
+  
 </div>
+
+ </div>
+<div class="mx-36"> Current Data</div>
+</div>
+</div>
+
 
 
 </template>
