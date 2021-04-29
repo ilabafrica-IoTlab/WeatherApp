@@ -26,12 +26,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Now lets start
 # 1.Install VueJS and start Leaflet App
- ```
+
 >   Install See NodeJS. -> through package manager or the compressed traball. Its best to install the LTS version becasue of its fort support. OR npm -g @vue/cli
  >     To start a project create a folder or basically run on terminal mkdir VueProject && cd VueProject
  >     on terminal run : vue create vueProject -- you can call it whatever name you'd like
  >     still on terminal : npm run serve
- ```
+
 
 # 2. Install Leaflet ( using npm )
 >  npm install leaflet see[install leaflet]('https://www.npmjs.com/package/leaflet).  You will find a copy of the Leaflet release files in node_modules/leaflet/dist. install in your root project directory.
@@ -46,6 +46,7 @@ Now lets start
 
 > generate a tailwind config file, tailwind.js by running this on terminal : *./node_modules/.bin/tailwind init tailwinds.js* 
 > you will see a tailwind.js in your project root dir, if you open it wyyou will get a module.experts object as you can see mine below: 
+
 ![module](https://user-images.githubusercontent.com/42699812/116505295-06fbbd00-a8aa-11eb-99c9-dbe684f4c20d.png)
 
 To be inside the themes.extends section is where you can add your custom designs. As i have done with the colors object.
