@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Data</h1>
     <!-- <Search/> -->
     <!-- <div>
 
@@ -24,14 +23,16 @@
     
 </div>
 </div> -->
-
-<div class="p-5">
-    <h1>Strathmore university</h1>
-    <h2>Weather Forcats</h2>
-    <h3>Monday, 3rd April 2021</h3>
+<div class="flex items-start ">
+<div class="px-5 ml-24 h-44 w-auto   ">
+    <div class="border3  px-10 mx-1 py-10 " >
+      <h1 class="text-3xl text-black font-bold">Strathmore university</h1>
+    <h2 class="text-base text-black">Weather Forcast</h2>
+    <h3 class="text-sm text-black" >Monday, 3rd April 2021</h3>
+    </div>
 </div>
-<div>
-<div class="border3 shadow-md w-auto m-auto px-5 pb-4 pt-3 bg-white  rounded  inline-block">
+
+<div class="border3 shadow-md w-auto mx-auto px-auto pb-4 pt-3 bg-white  rounded  ">
     <!-- Temperature Box 1 Start-->
     <div  class="w-auto h-auto inline-block mx-5">
       <h3 class="pt-2 mt-0 pb-6 text-sm">Temperature</h3>
@@ -55,9 +56,9 @@
     </div>
  <!-- Temperature Box 1 End-->
 
-<div class="inline-block h-44 w-72">
+<div class="mr-32">
 <!-- additinal parameters box 2 Start-->
-  <div class=" h-44 w-72 border-3 shadow mx-5  pt-8 px-5   bg-green-200 rounded inline-block ">
+  <div class=" h-44 w-72 border-3 shadow   pt-8   bg-green-200 rounded inline-block ">
   <div >
       <h3 class=" text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->

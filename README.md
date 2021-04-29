@@ -92,4 +92,8 @@ now thats done, Go to your app.vuew file and import or rather tell the app you w
 ![logic](https://user-images.githubusercontent.com/42699812/116003254-c4f22300-a5ec-11eb-89c1-46c24c7d9249.png) --. 
 here im using default data before i consume an api.
 
-****************************************
+***********************************************************
+
+# 6. Consuming The Weather Api
+
+

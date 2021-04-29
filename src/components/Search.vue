@@ -30,10 +30,6 @@
 
 <script>
 export default {
-  // name: "Search",
-  // props: {
-  //   msg: String,
-  // },
   data() {
     return {
       location: "",
