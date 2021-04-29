@@ -55,10 +55,11 @@
     </div>
  <!-- Temperature Box 1 End-->
 
+<div class="inline-block h-44 w-72">
 <!-- additinal parameters box 2 Start-->
-  <div class="w-auto h-auto border3 shadow m-auto  pt-3 px-5  pb-4 bg-green-200 rounded inline-block mx-5">
+  <div class=" h-44 w-72 border-3 shadow mx-5  pt-8 px-5   bg-green-200 rounded inline-block ">
   <div >
-      <h3 class="pt-2 mt-0 text-sm pb-4">Additional Parameters</h3>
+      <h3 class=" text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->
       <div> <h2 class="inline"> Wind </h2> { 24 }</div>
          <!-- Pressure -->
@@ -68,6 +69,7 @@
   </div>
   </div>
 <!-- additinal parameters box 2 End-->
+</div>
 </div>
 </div>
 
