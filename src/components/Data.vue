@@ -23,9 +23,9 @@
     
 </div>
 </div> -->
-<div class="flex items-start ">
+<div class="flex items-start  ">
 <div class="px-5 ml-24 h-44 w-auto   ">
-    <div class="border3  px-10 mx-1 py-10 " >
+    <div class="border3  px-10 mx-1 py-10 font-ubuntu " >
       <h1 class="text-3xl text-black font-bold">Strathmore university</h1>
     <h2 class="text-base text-black">Weather Forcast</h2>
     <h3 class="text-sm text-black" >Monday, 3rd April 2021</h3>
@@ -62,7 +62,7 @@
   <div >
       <h3 class=" text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->
-      <div> <h2 class="inline"> Wind </h2> { 24 }</div>
+      <div class=""> <h2 class="inline text-left"> Wind </h2> { 24 }</div>
          <!-- Pressure -->
       <div> <h2 class="inline"> Pressure </h2> { 20 }</div>
          <!-- Precipitation -->
