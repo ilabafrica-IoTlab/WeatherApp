@@ -32,10 +32,10 @@
     </div>
 </div>
 
-<div class="border3 shadow-md w-auto mx-auto px-auto pb-4 pt-3 bg-white  rounded  ">
+<div class="border3 ml-1 p-2 shadow-md w-auto mx-auto px-auto pb-4 pt-3 bg-white  rounded  ">
     <!-- Temperature Box 1 Start-->
     <div  class="w-auto h-auto inline-block mx-5">
-      <h3 class="pt-2 mt-0 pb-6 text-sm">Temperature</h3>
+      <h3 class="pt-0.5 mt-0 pb-6 text-gray-500 text-sm">Temperature</h3>
       <div >
         <!-- payload boxes -->
         <div class="inline-block">
@@ -58,15 +58,15 @@
 
 <div class="mr-32">
 <!-- additinal parameters box 2 Start-->
-  <div class=" h-44 w-72 border-3 shadow   pt-8   bg-green-200 rounded inline-block ">
+  <div class=" h-44 w-72 border-3 shadow   pt-3  bg-white rounded inline-block ">
   <div >
-      <h3 class=" text-sm pb-4">Additional Parameters</h3>
+      <h3 class="pt-0.5 text-gray-500 text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->
-      <div class=""> <h2 class="inline text-left"> Wind </h2> { 24 }</div>
+      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Wind </h2> <span class="text-right pl-16 pr-4 text-weatherMediumBlue">24</span></div>
          <!-- Pressure -->
-      <div> <h2 class="inline"> Pressure </h2> { 20 }</div>
+      <div  class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Pressure </h2>  <span class="text-right pl-10 pr-4 text-weatherMediumBlue">20</span></div>
          <!-- Precipitation -->
-      <div> <h2 class="inline"> Precipitation </h2> { 0.42 }</div>
+      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16">Precipitation </h2>  <span class="text-right pl-3 pr-4 text-weatherMediumBlue">0.42</span></div>
   </div>
   </div>
 <!-- additinal parameters box 2 End-->
