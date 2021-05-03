@@ -3,18 +3,18 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
  <Search />
 
- <Maps msg="Welcome to Maps "  />
-    <Data  msg="lets get the data "/>
-   <Icons  msg="Where are the icons "/>
-      
+ <!-- <Maps msg="Welcome to Maps "  /> -->
+    <!-- <Data  msg="lets get the data "/> -->
+   <!-- <Icons  msg="Where are the icons "/>  -->
 
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Maps from './components/Maps.vue'
-import Icons from './components/Icons.vue'
-import Data from './components/Data.vue'
+
+// import Maps from './components/Maps.vue'
+// import Icons from './components/Icons.vue'
+// import Data from './components/Data.vue'
 import Search from './components/Search.vue'
 
 require('./assets/styles/output.css')
@@ -24,21 +24,13 @@ export default {
   name: 'App',
   components: {
     // HelloWorld,
-     Maps,
-    Icons,
+    //  Maps,
+    // Icons,
     Search,
-    Data
+    // Data
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

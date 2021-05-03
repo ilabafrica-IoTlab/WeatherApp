@@ -26,9 +26,9 @@
 <div class="flex items-start  ">
 <div class="px-5 ml-24 h-44 w-auto   ">
     <div class="border3  px-10 mx-1 py-10 font-ubuntu " >
-      <h1 class="text-3xl text-black font-bold">Strathmore university</h1>
+      <h1 class="text-3xl text-black font-bold">Place : {{ name }}</h1>
     <h2 class="text-base text-black">Weather Forcast</h2>
-    <h3 class="text-sm text-black" >Monday, 3rd April 2021</h3>
+    <h3 class="text-sm text-black" >Monday, 3rd April 2021 <br> Current Date : {{ localtime }}</h3>
     </div>
 </div>
 
@@ -40,7 +40,7 @@
         <!-- payload boxes -->
         <div class="inline-block">
           <!-- Maximum-->
-          <span class="text-3xl text-weatherMediumBlue">25</span>
+          <span class="text-3xl text-weatherMediumBlue">{{ temperature }}</span>
  <span class="text-xs text-black font-bold" > °C</span>
          <h2 class="pl-3.5 pr-3.5 pt-3">  maximum </h2>
         </div>
@@ -53,6 +53,7 @@
         </div>
       </div>
       </div>
+       <Icons  msg="Where are the icons "/> 
     </div>
  <!-- Temperature Box 1 End-->
 
@@ -62,11 +63,11 @@
   <div >
       <h3 class="pt-0.5 text-gray-500 text-sm pb-4">Additional Parameters</h3>
       <!-- Wind -->
-      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Wind </h2> <span class="text-right pl-16 pr-4 text-weatherMediumBlue">24</span></div>
+      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Wind </h2> <span class="text-right pl-16 pr-4 text-weatherMediumBlue">{{ wind_speed }}</span></div>
          <!-- Pressure -->
-      <div  class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Pressure </h2>  <span class="text-right pl-10 pr-4 text-weatherMediumBlue">20</span></div>
+      <div  class="flex items-start"> <h2 class=" text-left pl-7 pr-16"> Pressure </h2>  <span class="text-right pl-10 pr-4 text-weatherMediumBlue">{{ pressure }}</span></div>
          <!-- Precipitation -->
-      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16">Precipitation </h2>  <span class="text-right pl-3 pr-4 text-weatherMediumBlue">0.42</span></div>
+      <div class="flex items-start"> <h2 class=" text-left pl-7 pr-16">Precipitation </h2>  <span class="text-right pl-3 pr-4 text-weatherMediumBlue">{{ precip }}</span></div>
   </div>
   </div>
 <!-- additinal parameters box 2 End-->
@@ -80,11 +81,13 @@
 <div>
   <h1>Day</h1>
   <img src="" alt="Weather Icon">
-  
+<!-- <li v-bind="products" >{{products.name}}</li> -->
 </div>
 
  </div>
 <div class="mx-36"> Current Data</div>
+
+
 </div>
 </div>
 
@@ -94,8 +97,10 @@
 
 <script>
 // import Search from './components/Search.vue'
-
+//  import { store } from './store/store'
+//  require('./store/store.js')
 export default {
+  props:['temperature', 'precip','pressure','name','localtime','wind_speed'] ,
   name: "Data",
   // Data(){
   // return{

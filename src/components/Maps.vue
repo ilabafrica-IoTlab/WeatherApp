@@ -22,9 +22,11 @@ export default {
   data() {
     return {
       location: "",
+      name: "",
       lat: "",
       lon: "",
       placeholder: "",
+      localtime_epoch: "",
     };
   },
   methods: {
