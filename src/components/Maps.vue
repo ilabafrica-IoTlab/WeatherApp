@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="  w-4/5 m-5  mx-32 rounded-lg shadow ">
+    <div class="  w-4/5 m-5  mx-auto rounded-lg shadow ">
       <div
         id="mapid"
         style="height:24rem"
@@ -15,26 +15,27 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
+
+  props:['lat', 'lon',] ,
   data() {
     return {
-      location: "",
-      name: "",
-      lat: "",
-      lon: "",
-      placeholder: "",
-      localtime_epoch: "",
+      
+   
     };
   },
-  methods: {
+//   watch: {
+//       lat(val) {
+//       if(val){
+// this.consumeApiPlotMap();
+//       }
+//     } ,
+     
+//      },
+
+    methods: {
     searchLocation() {
       let targetLocation = this.location;
       console.log("LOCATION: " + targetLocation);
-      // this.placeholder = "This is "+(this.location).toString(); // clears placeholder value
-      // this.location = "";
 
       document.getElementsByName("target_location")[0].placeholder =
         "  Welcome to " + this.location.toString() + " . . .";
@@ -80,7 +81,10 @@ export default {
         let longitude = 36.817;
 
         // const mymap = L.map("mapid").setView([lat, lon], 13);
-        const mymap = L.map("mapid").setView([latitude, longitude], 15);
+                const mymap = L.map("mapid").setView([latitude, longitude], 15);
+
+        // const mymap = L.map("mapid").setView([this.lat, this.lon], 15);
+        console.log("MAPZ : "+"\n latitude:"+this.lat +"\nlongitude:"+this.lon);
 
         L.tileLayer(
           "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
